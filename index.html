@@ -28,7 +28,7 @@
 
       // Календарь праздников России (официальный Google Calendar)
       const calendarId = 'ru.russian#holiday@group.v.calendar.google.com';
-      const url = `https://www.googleapis.com/calendar/v3/calendars/${calendarId}/events?key=AIzaSyDx-AwMJGZ4MFgq6Zz1m59yvmBi0BrXLBQ&timeMin=${start.toISOString()}&timeMax=${end.toISOString()}`;
+      const url = `https://www.googleapis.com/calendar/v3/calendars/${calendarId}/events?key=AIzaSyDGJK2LqOP8dgBBRztcSUH0joctDj0DqZk&timeMin=${start.toISOString()}&timeMax=${end.toISOString()}`;
 
       const response = await fetch(url);
       const data = await response.json();
